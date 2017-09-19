@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36848E261F71167100699ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E251F71167100699ABA /* main.m */; };
+		36848E291F71167100699ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E281F71167100699ABA /* AppDelegate.m */; };
+		36848E2C1F71167100699ABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E2B1F71167100699ABA /* ViewController.m */; };
+		36848E2F1F71167100699ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36848E2D1F71167100699ABA /* Main.storyboard */; };
+		36848E311F71167100699ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36848E301F71167100699ABA /* Assets.xcassets */; };
+		36848E341F71167100699ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36848E321F71167100699ABA /* LaunchScreen.storyboard */; };
+		36848E3F1F71167100699ABA /* KTKeyboradTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E3E1F71167100699ABA /* KTKeyboradTests.m */; };
+		36848E4A1F71167100699ABA /* KTKeyboradUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E491F71167100699ABA /* KTKeyboradUITests.m */; };
+		36848E7C1F71167E00699ABA /* KTNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E5A1F71167E00699ABA /* KTNSArray+Sort.m */; };
+		36848E7D1F71167E00699ABA /* KTUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E5C1F71167E00699ABA /* KTUIScrollView+Additions.m */; };
+		36848E7E1F71167E00699ABA /* KTUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E5E1F71167E00699ABA /* KTUITextFieldView+Additions.m */; };
+		36848E7F1F71167E00699ABA /* KTUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E601F71167E00699ABA /* KTUIView+Hierarchy.m */; };
+		36848E801F71167E00699ABA /* KTUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E621F71167E00699ABA /* KTUIViewController+Additions.m */; };
+		36848E811F71167E00699ABA /* KTUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E641F71167E00699ABA /* KTUIWindow+Hierarchy.m */; };
+		36848E821F71167E00699ABA /* KTKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E691F71167E00699ABA /* KTKeyboardManager.m */; };
+		36848E831F71167E00699ABA /* KTKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E6B1F71167E00699ABA /* KTKeyboardReturnKeyHandler.m */; };
+		36848E841F71167E00699ABA /* KTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E6E1F71167E00699ABA /* KTTextView.m */; };
+		36848E851F71167E00699ABA /* KTBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E711F71167E00699ABA /* KTBarButtonItem.m */; };
+		36848E861F71167E00699ABA /* KTPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E731F71167E00699ABA /* KTPreviousNextView.m */; };
+		36848E871F71167E00699ABA /* KTTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E751F71167E00699ABA /* KTTitleBarButtonItem.m */; };
+		36848E881F71167E00699ABA /* KTToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E771F71167E00699ABA /* KTToolbar.m */; };
+		36848E891F71167E00699ABA /* KTUIView+KTKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 36848E791F71167E00699ABA /* KTUIView+KTKeyboardToolbar.m */; };
+		36848E8A1F71167E00699ABA /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36848E7B1F71167E00699ABA /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36848E3B1F71167100699ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36848E191F71167100699ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36848E201F71167100699ABA;
+			remoteInfo = KTKeyborad;
+		};
+		36848E461F71167100699ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36848E191F71167100699ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36848E201F71167100699ABA;
+			remoteInfo = KTKeyborad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36848E211F71167100699ABA /* KTKeyborad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTKeyborad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36848E251F71167100699ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36848E271F71167100699ABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36848E281F71167100699ABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36848E2A1F71167100699ABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36848E2B1F71167100699ABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36848E2E1F71167100699ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36848E301F71167100699ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36848E331F71167100699ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36848E351F71167100699ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36848E3A1F71167100699ABA /* KTKeyboradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTKeyboradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36848E3E1F71167100699ABA /* KTKeyboradTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTKeyboradTests.m; sourceTree = "<group>"; };
+		36848E401F71167100699ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36848E451F71167100699ABA /* KTKeyboradUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTKeyboradUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36848E491F71167100699ABA /* KTKeyboradUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTKeyboradUITests.m; sourceTree = "<group>"; };
+		36848E4B1F71167100699ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36848E591F71167E00699ABA /* KTNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTNSArray+Sort.h"; sourceTree = "<group>"; };
+		36848E5A1F71167E00699ABA /* KTNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTNSArray+Sort.m"; sourceTree = "<group>"; };
+		36848E5B1F71167E00699ABA /* KTUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		36848E5C1F71167E00699ABA /* KTUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		36848E5D1F71167E00699ABA /* KTUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		36848E5E1F71167E00699ABA /* KTUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		36848E5F1F71167E00699ABA /* KTUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		36848E601F71167E00699ABA /* KTUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		36848E611F71167E00699ABA /* KTUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIViewController+Additions.h"; sourceTree = "<group>"; };
+		36848E621F71167E00699ABA /* KTUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIViewController+Additions.m"; sourceTree = "<group>"; };
+		36848E631F71167E00699ABA /* KTUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		36848E641F71167E00699ABA /* KTUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		36848E661F71167E00699ABA /* KTKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		36848E671F71167E00699ABA /* KTKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		36848E681F71167E00699ABA /* KTKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKeyboardManager.h; sourceTree = "<group>"; };
+		36848E691F71167E00699ABA /* KTKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTKeyboardManager.m; sourceTree = "<group>"; };
+		36848E6A1F71167E00699ABA /* KTKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		36848E6B1F71167E00699ABA /* KTKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		36848E6D1F71167E00699ABA /* KTTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTextView.h; sourceTree = "<group>"; };
+		36848E6E1F71167E00699ABA /* KTTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTextView.m; sourceTree = "<group>"; };
+		36848E701F71167E00699ABA /* KTBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBarButtonItem.h; sourceTree = "<group>"; };
+		36848E711F71167E00699ABA /* KTBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBarButtonItem.m; sourceTree = "<group>"; };
+		36848E721F71167E00699ABA /* KTPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPreviousNextView.h; sourceTree = "<group>"; };
+		36848E731F71167E00699ABA /* KTPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPreviousNextView.m; sourceTree = "<group>"; };
+		36848E741F71167E00699ABA /* KTTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTitleBarButtonItem.h; sourceTree = "<group>"; };
+		36848E751F71167E00699ABA /* KTTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTitleBarButtonItem.m; sourceTree = "<group>"; };
+		36848E761F71167E00699ABA /* KTToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTToolbar.h; sourceTree = "<group>"; };
+		36848E771F71167E00699ABA /* KTToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTToolbar.m; sourceTree = "<group>"; };
+		36848E781F71167E00699ABA /* KTUIView+KTKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTUIView+KTKeyboardToolbar.h"; sourceTree = "<group>"; };
+		36848E791F71167E00699ABA /* KTUIView+KTKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTUIView+KTKeyboardToolbar.m"; sourceTree = "<group>"; };
+		36848E7B1F71167E00699ABA /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36848E1E1F71167100699ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36848E371F71167100699ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36848E421F71167100699ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36848E181F71167100699ABA = {
+			isa = PBXGroup;
+			children = (
+				36848E231F71167100699ABA /* KTKeyborad */,
+				36848E3D1F71167100699ABA /* KTKeyboradTests */,
+				36848E481F71167100699ABA /* KTKeyboradUITests */,
+				36848E221F71167100699ABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36848E221F71167100699ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36848E211F71167100699ABA /* KTKeyborad.app */,
+				36848E3A1F71167100699ABA /* KTKeyboradTests.xctest */,
+				36848E451F71167100699ABA /* KTKeyboradUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36848E231F71167100699ABA /* KTKeyborad */ = {
+			isa = PBXGroup;
+			children = (
+				36848E571F71167E00699ABA /* IQKeyboardManager */,
+				36848E271F71167100699ABA /* AppDelegate.h */,
+				36848E281F71167100699ABA /* AppDelegate.m */,
+				36848E2A1F71167100699ABA /* ViewController.h */,
+				36848E2B1F71167100699ABA /* ViewController.m */,
+				36848E2D1F71167100699ABA /* Main.storyboard */,
+				36848E301F71167100699ABA /* Assets.xcassets */,
+				36848E321F71167100699ABA /* LaunchScreen.storyboard */,
+				36848E351F71167100699ABA /* Info.plist */,
+				36848E241F71167100699ABA /* Supporting Files */,
+			);
+			path = KTKeyborad;
+			sourceTree = "<group>";
+		};
+		36848E241F71167100699ABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36848E251F71167100699ABA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36848E3D1F71167100699ABA /* KTKeyboradTests */ = {
+			isa = PBXGroup;
+			children = (
+				36848E3E1F71167100699ABA /* KTKeyboradTests.m */,
+				36848E401F71167100699ABA /* Info.plist */,
+			);
+			path = KTKeyboradTests;
+			sourceTree = "<group>";
+		};
+		36848E481F71167100699ABA /* KTKeyboradUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36848E491F71167100699ABA /* KTKeyboradUITests.m */,
+				36848E4B1F71167100699ABA /* Info.plist */,
+			);
+			path = KTKeyboradUITests;
+			sourceTree = "<group>";
+		};
+		36848E571F71167E00699ABA /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				36848E581F71167E00699ABA /* Categories */,
+				36848E651F71167E00699ABA /* Constants */,
+				36848E681F71167E00699ABA /* KTKeyboardManager.h */,
+				36848E691F71167E00699ABA /* KTKeyboardManager.m */,
+				36848E6A1F71167E00699ABA /* KTKeyboardReturnKeyHandler.h */,
+				36848E6B1F71167E00699ABA /* KTKeyboardReturnKeyHandler.m */,
+				36848E6C1F71167E00699ABA /* IQTextView */,
+				36848E6F1F71167E00699ABA /* IQToolbar */,
+				36848E7A1F71167E00699ABA /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		36848E581F71167E00699ABA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				36848E591F71167E00699ABA /* KTNSArray+Sort.h */,
+				36848E5A1F71167E00699ABA /* KTNSArray+Sort.m */,
+				36848E5B1F71167E00699ABA /* KTUIScrollView+Additions.h */,
+				36848E5C1F71167E00699ABA /* KTUIScrollView+Additions.m */,
+				36848E5D1F71167E00699ABA /* KTUITextFieldView+Additions.h */,
+				36848E5E1F71167E00699ABA /* KTUITextFieldView+Additions.m */,
+				36848E5F1F71167E00699ABA /* KTUIView+Hierarchy.h */,
+				36848E601F71167E00699ABA /* KTUIView+Hierarchy.m */,
+				36848E611F71167E00699ABA /* KTUIViewController+Additions.h */,
+				36848E621F71167E00699ABA /* KTUIViewController+Additions.m */,
+				36848E631F71167E00699ABA /* KTUIWindow+Hierarchy.h */,
+				36848E641F71167E00699ABA /* KTUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		36848E651F71167E00699ABA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				36848E661F71167E00699ABA /* KTKeyboardManagerConstants.h */,
+				36848E671F71167E00699ABA /* KTKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		36848E6C1F71167E00699ABA /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				36848E6D1F71167E00699ABA /* KTTextView.h */,
+				36848E6E1F71167E00699ABA /* KTTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		36848E6F1F71167E00699ABA /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				36848E701F71167E00699ABA /* KTBarButtonItem.h */,
+				36848E711F71167E00699ABA /* KTBarButtonItem.m */,
+				36848E721F71167E00699ABA /* KTPreviousNextView.h */,
+				36848E731F71167E00699ABA /* KTPreviousNextView.m */,
+				36848E741F71167E00699ABA /* KTTitleBarButtonItem.h */,
+				36848E751F71167E00699ABA /* KTTitleBarButtonItem.m */,
+				36848E761F71167E00699ABA /* KTToolbar.h */,
+				36848E771F71167E00699ABA /* KTToolbar.m */,
+				36848E781F71167E00699ABA /* KTUIView+KTKeyboardToolbar.h */,
+				36848E791F71167E00699ABA /* KTUIView+KTKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		36848E7A1F71167E00699ABA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36848E7B1F71167E00699ABA /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36848E201F71167100699ABA /* KTKeyborad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36848E4E1F71167100699ABA /* Build configuration list for PBXNativeTarget "KTKeyborad" */;
+			buildPhases = (
+				36848E1D1F71167100699ABA /* Sources */,
+				36848E1E1F71167100699ABA /* Frameworks */,
+				36848E1F1F71167100699ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTKeyborad;
+			productName = KTKeyborad;
+			productReference = 36848E211F71167100699ABA /* KTKeyborad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36848E391F71167100699ABA /* KTKeyboradTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36848E511F71167100699ABA /* Build configuration list for PBXNativeTarget "KTKeyboradTests" */;
+			buildPhases = (
+				36848E361F71167100699ABA /* Sources */,
+				36848E371F71167100699ABA /* Frameworks */,
+				36848E381F71167100699ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36848E3C1F71167100699ABA /* PBXTargetDependency */,
+			);
+			name = KTKeyboradTests;
+			productName = KTKeyboradTests;
+			productReference = 36848E3A1F71167100699ABA /* KTKeyboradTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36848E441F71167100699ABA /* KTKeyboradUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36848E541F71167100699ABA /* Build configuration list for PBXNativeTarget "KTKeyboradUITests" */;
+			buildPhases = (
+				36848E411F71167100699ABA /* Sources */,
+				36848E421F71167100699ABA /* Frameworks */,
+				36848E431F71167100699ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36848E471F71167100699ABA /* PBXTargetDependency */,
+			);
+			name = KTKeyboradUITests;
+			productName = KTKeyboradUITests;
+			productReference = 36848E451F71167100699ABA /* KTKeyboradUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36848E191F71167100699ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KEENTEAM;
+				TargetAttributes = {
+					36848E201F71167100699ABA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3RAW5T257U;
+						ProvisioningStyle = Automatic;
+					};
+					36848E391F71167100699ABA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36848E201F71167100699ABA;
+					};
+					36848E441F71167100699ABA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36848E201F71167100699ABA;
+					};
+				};
+			};
+			buildConfigurationList = 36848E1C1F71167100699ABA /* Build configuration list for PBXProject "KTKeyborad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36848E181F71167100699ABA;
+			productRefGroup = 36848E221F71167100699ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36848E201F71167100699ABA /* KTKeyborad */,
+				36848E391F71167100699ABA /* KTKeyboradTests */,
+				36848E441F71167100699ABA /* KTKeyboradUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36848E1F1F71167100699ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36848E341F71167100699ABA /* LaunchScreen.storyboard in Resources */,
+				36848E311F71167100699ABA /* Assets.xcassets in Resources */,
+				36848E8A1F71167E00699ABA /* IQKeyboardManager.bundle in Resources */,
+				36848E2F1F71167100699ABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36848E381F71167100699ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36848E431F71167100699ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36848E1D1F71167100699ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36848E821F71167E00699ABA /* KTKeyboardManager.m in Sources */,
+				36848E841F71167E00699ABA /* KTTextView.m in Sources */,
+				36848E7E1F71167E00699ABA /* KTUITextFieldView+Additions.m in Sources */,
+				36848E881F71167E00699ABA /* KTToolbar.m in Sources */,
+				36848E831F71167E00699ABA /* KTKeyboardReturnKeyHandler.m in Sources */,
+				36848E7C1F71167E00699ABA /* KTNSArray+Sort.m in Sources */,
+				36848E801F71167E00699ABA /* KTUIViewController+Additions.m in Sources */,
+				36848E811F71167E00699ABA /* KTUIWindow+Hierarchy.m in Sources */,
+				36848E851F71167E00699ABA /* KTBarButtonItem.m in Sources */,
+				36848E7D1F71167E00699ABA /* KTUIScrollView+Additions.m in Sources */,
+				36848E2C1F71167100699ABA /* ViewController.m in Sources */,
+				36848E871F71167E00699ABA /* KTTitleBarButtonItem.m in Sources */,
+				36848E291F71167100699ABA /* AppDelegate.m in Sources */,
+				36848E261F71167100699ABA /* main.m in Sources */,
+				36848E891F71167E00699ABA /* KTUIView+KTKeyboardToolbar.m in Sources */,
+				36848E861F71167E00699ABA /* KTPreviousNextView.m in Sources */,
+				36848E7F1F71167E00699ABA /* KTUIView+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36848E361F71167100699ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36848E3F1F71167100699ABA /* KTKeyboradTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36848E411F71167100699ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36848E4A1F71167100699ABA /* KTKeyboradUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36848E3C1F71167100699ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36848E201F71167100699ABA /* KTKeyborad */;
+			targetProxy = 36848E3B1F71167100699ABA /* PBXContainerItemProxy */;
+		};
+		36848E471F71167100699ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36848E201F71167100699ABA /* KTKeyborad */;
+			targetProxy = 36848E461F71167100699ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36848E2D1F71167100699ABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36848E2E1F71167100699ABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36848E321F71167100699ABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36848E331F71167100699ABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36848E4C1F71167100699ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36848E4D1F71167100699ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36848E4F1F71167100699ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RAW5T257U;
+				INFOPLIST_FILE = KTKeyborad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTKeyborad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36848E501F71167100699ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RAW5T257U;
+				INFOPLIST_FILE = KTKeyborad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTKeyborad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36848E521F71167100699ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTKeyboradTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTKeyboradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTKeyborad.app/KTKeyborad";
+			};
+			name = Debug;
+		};
+		36848E531F71167100699ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTKeyboradTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTKeyboradTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTKeyborad.app/KTKeyborad";
+			};
+			name = Release;
+		};
+		36848E551F71167100699ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTKeyboradUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTKeyboradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTKeyborad;
+			};
+			name = Debug;
+		};
+		36848E561F71167100699ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTKeyboradUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shmicrovion.KTKeyboradUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTKeyborad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36848E1C1F71167100699ABA /* Build configuration list for PBXProject "KTKeyborad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36848E4C1F71167100699ABA /* Debug */,
+				36848E4D1F71167100699ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36848E4E1F71167100699ABA /* Build configuration list for PBXNativeTarget "KTKeyborad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36848E4F1F71167100699ABA /* Debug */,
+				36848E501F71167100699ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36848E511F71167100699ABA /* Build configuration list for PBXNativeTarget "KTKeyboradTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36848E521F71167100699ABA /* Debug */,
+				36848E531F71167100699ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36848E541F71167100699ABA /* Build configuration list for PBXNativeTarget "KTKeyboradUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36848E551F71167100699ABA /* Debug */,
+				36848E561F71167100699ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36848E191F71167100699ABA /* Project object */;
+}

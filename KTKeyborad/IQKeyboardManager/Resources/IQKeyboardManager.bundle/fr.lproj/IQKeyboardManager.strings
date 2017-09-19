@@ -1,0 +1,13 @@
+
+"enabled"             =   "activé";
+
+"disabled"            =   "désactivé";
+
+"already disabled"    =   "déjà désactivé";
+
+"already enabled"     =   "déjà activé";
+
+"You must set UIWindow.rootViewController in your AppDelegate to work with KTKeyboardManager"  =   "Vous devez définir UIWindow.rootViewController dans votre AppDelegate pour KTKeyboardManager fonctionne";
+
+"Previous"                              =   "Précédent";
+"Next"                                  =   "Suivant";
