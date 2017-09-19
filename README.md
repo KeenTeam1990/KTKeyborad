@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/KeenTeam1990/KTKeyborad/master/Demo/Resources/icon.png" alt="Icon"/>
+  <img src="https://github.com/KeenTeam1990/KTKeyborad/blob/master/Demo/Resources/icon.png" alt="Icon"/>
 </p>
 <H1 align="center">KTKeyboardManager</H1>
 
@@ -23,11 +23,11 @@ Often while developing an app, We ran into an issues where the iPhone keyboard s
 
 
 ## Screenshot
-[![KTKeyboardManager](https://github.com/KeenTeam1990/KTKeyborad.git/v3.3.0/Screenshot/IQKeyboardManagerScreenshot.png)](http://youtu.be/6nhLw6hju2A)
-[![Settings](https://github.com/KeenTeam1990/KTKeyborad.git/v3.3.0/Screenshot/IQKeyboardManagerSettings.png)](http://youtu.be/6nhLw6hju2A)
+[![KTKeyboardManager](https://github.com/KeenTeam1990/KTKeyborad/v3.3.0/Screenshot/IQKeyboardManagerScreenshot.png)](http://youtu.be/6nhLw6hju2A)
+[![Settings](https://github.com/KeenTeam1990/KTKeyborad/v3.3.0/Screenshot/IQKeyboardManagerSettings.png)](http://youtu.be/6nhLw6hju2A)
 
 ## GIF animation
-[![KTKeyboardManager](https://github.com/KeenTeam1990/KTKeyborad.git/v3.3.0/Screenshot/IQKeyboardManager.gif)](http://youtu.be/6nhLw6hju2A)
+[![KTKeyboardManager](https://github.com/KeenTeam1990/KTKeyborad/v3.3.0/Screenshot/IQKeyboardManager.gif)](http://youtu.be/6nhLw6hju2A)
 
 ## Video
 
