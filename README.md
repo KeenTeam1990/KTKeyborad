@@ -24,10 +24,7 @@ Often while developing an app, We ran into an issues where the iPhone keyboard s
 
 ## Screenshot
 [![KTKeyboardManager](https://github.com/KeenTeam1990/KTKeyborad/blob/master/Screenshot/IQKeyboardManagerScreenshot.png)](http://youtu.be/6nhLw6hju2A)
-[![Settings](https://github.com/KeenTeam1990/KTKeyborad/blob/master/Screenshot/IQKeyboardManagerSettings.png)](http://youtu.be/6nhLw6hju2A)
 
-## GIF animation
-[![KTKeyboardManager](https://github.com/KeenTeam1990/KTKeyborad/blob/master/Screenshot/IQKeyboardManager.gif)](http://youtu.be/6nhLw6hju2A)
 
 ## Video
 
